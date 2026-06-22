@@ -33,10 +33,10 @@ export default function HeroSection() {
           </div>
 
           {/* Map Callout 1 (Top Right) */}
-          <div className="absolute top-[20%] right-[-10%] flex items-end">
+          <div className="absolute top-[20%] right-[-5%] flex items-end">
             <div className="w-3 h-3 bg-[#2a2a2a] border border-white" />
             <div className="w-16 border-b border-[#2a2a2a] mb-1 ml-1" />
-            <div className="w-24 border-b border-[#2a2a2a] mb-1 -rotate-12 origin-bottom-left" />
+            <div className="w-16 border-b border-[#2a2a2a] mb-1 -rotate-12 origin-bottom-left" />
             <p className="text-[10px] uppercase leading-tight ml-2 text-[#353535] max-w-[170px] text">
               Northeast India's Biggest 24-Hour Hackathon
             </p>
@@ -46,7 +46,7 @@ export default function HeroSection() {
           <div className="absolute top-[40%] left-[9%] flex items-end flex-row-reverse">
             <div className="w-3 h-3 bg-[#2a2a2a] border border-white" />
             <div className="w-12 border-b border-[#2a2a2a] mb-1 mr-1" />
-            <div className="w-16 border-b border-[#2a2a2a] mb-1 rotate-12 origin-bottom-right" />
+            <div className="w-10 border-b border-[#2a2a2a] mb-1 rotate-12 origin-bottom-right" />
             <p className="text-[10px] uppercase leading-tight mr-2 text-[#2a2a2a]  text">
               Guwahati, Assam
             </p>
