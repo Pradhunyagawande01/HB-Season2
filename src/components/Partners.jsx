@@ -232,7 +232,8 @@ export default function PartnersSection() {
                 <img 
                   src={partner.logo} 
                   alt={partner.name} 
-                  className="max-h-full w-auto max-w-[100px] sm:max-w-[140px] md:max-w-[180px] lg:max-w-[200px] object-contain duration-300 grayscale hover:grayscale-0 transition-all"
+                  className="max-h-full w-auto max-w-[100px] sm:max-w-[140px] md:max-w-[180px] lg:max-w-[200px] object-contain duration-300 grayscale hover:grayscale-0 transition-all
+                  "
                   onError={(e) => {
                     // Fallback if image fails to load
                     e.target.style.display = 'none';
