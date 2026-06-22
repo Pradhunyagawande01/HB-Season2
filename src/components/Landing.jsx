@@ -100,7 +100,7 @@ export default function HeroSection() {
         </div>
 
         {/* BOTTOM RIGHT: Info Box */}
-        <div className="absolute bottom-8 right-8 md:bottom-12 md:right-12 max-w-sm pointer-events-auto">
+        <div className="absolute bottom-24 right-0 md:bottom-12 md:right-12 pointer-events-auto overflow-auto">
           {/* Box Header */}
           <div className="bg-[#2a2d24] text-white p-3 border border-[#2a2d24]">
             <h3 className="text-xs md:text-sm font-bold uppercase tracking-wider subtitle">
